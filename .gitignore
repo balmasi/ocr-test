@@ -1,1 +1,4 @@
 node_modules
+training/training_data
+training/training_images
+training/receipt.*
