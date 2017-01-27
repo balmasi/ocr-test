@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rm -r receipt.* training_data training_images
+rm -r receipt_*.* training_data training_images
