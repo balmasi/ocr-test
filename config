@@ -1,2 +1,6 @@
 tessedit_char_whitelist 0123456789
-#user_patterns_file receipt_nh.user-patterns
+language_model_penalty_non_dict_word 1
+load_system_dawg F
+load_freq_dawg F
+user_patterns_file ./receipt_nh.user-patterns
+user_words_file ./wordlist

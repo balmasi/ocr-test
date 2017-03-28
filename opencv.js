@@ -28,7 +28,8 @@ cv.readImage(inputPath, function(err, image) {
   image = image.crop(100, 690, 780, 290);
 
   // Stretch image by factor of 1.5 to have less impact with filters
-  const stretchRatio = 1.5;
+
+  const stretchRatio = 1.7;
   image.resize(image.width() * stretchRatio, image.height() * stretchRatio);
 
   // Blue the image a little to smooth lines
